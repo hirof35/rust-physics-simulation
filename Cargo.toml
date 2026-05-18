@@ -1,0 +1,9 @@
+[package]
+name = "rust-physics-simulation"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.13"          # 3D描画エンジン
+bevy_rapier3d = "0.25" # 3D物理エンジン
+rand = "0.8"           # ランダム用
